@@ -3,7 +3,7 @@ import pandas as pd
 # from st_aggrid import AgGrid
 
 # baca dataframe dari file csv 
-df_house_clean = pd.read_csv('csv/house_clean.csv')
+df_house_clean = pd.read_csv('public_data/house_clean.csv')
 
 def main() : 
     st.header('Halaman Streamlit Febrian Bahari Adi')
